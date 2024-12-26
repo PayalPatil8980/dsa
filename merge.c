@@ -22,6 +22,6 @@ int main(){
         arr[n+i]=b[i];
     }
     for(i=0;i<(n+m);i++){
-        printf("%d",arr[i]);
+        printf("%d\t",arr[i]);
     }
 }
