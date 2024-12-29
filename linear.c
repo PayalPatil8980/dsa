@@ -87,3 +87,6 @@ int main() {
     return 0;
 }
 */
+void fun(){
+    int a=10;
+}
