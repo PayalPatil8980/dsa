@@ -2,7 +2,7 @@
 
 int bsearch(int arr[],int n,int val){
     int mid,high,low;
-    mid=(high+low)/2;
+    mid=(high+low)/2;  
     if(arr[mid]==val){
         return mid;
     }
