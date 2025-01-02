@@ -8,12 +8,11 @@ void select(int a[],int n){
         for(j=i+1;j<n;j++){
             if(a[j]<a[small]){
                 small=j;
-
-                int temp=a[i];
-                a[i]=a[small];
-                a[small]=temp;
             }
         }
+        int temp=a[i];
+        a[i]=a[small];
+        a[small]=temp;
     }
 
 }
